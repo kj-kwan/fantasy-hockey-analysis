@@ -3,7 +3,9 @@ Analyzing NHL player and goalie data to optimize fantasy hockey draft performanc
 
 ## ESPN Fantasy Format
 Scoring System (Head to Head)
+
 Player
+
 * Goals
 * Assists
 * +/-
@@ -12,7 +14,9 @@ Player
 * Shots
 * Hits
 * Defense Points
+
 Goalies
+
 * Wins
 * Saves
 * GAA
