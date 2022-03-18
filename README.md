@@ -1,10 +1,26 @@
-# fantasy-hockey-analysis
+# Fantasy Hockey Analysis
+
+<hr>
+
+# Background
+I built this notebook with the intent of maximizing my chances of winning my Fantasy hockey league using some simple linear regression modeling to estimate future performance based on the past years' performance.
+
+<hr>
+
+# Objective
 Analyzing NHL player and goalie data to optimize fantasy hockey draft performance to maximize expected value.
 
-## Yahoo Fantasy Format
-Scoring System
+# Methodology
+The plan will be to use various performance data from the previous year and forecast each performance metric of the subsequent year individually. When all modeled player/goalie performance metrics are predicted, the fantasy points will be calculated based on the Fantasy league's system. This will also be done on a per game basis as injuries have a large impact on the overall points expected from players going from year to year.
 
-Player
+The optimization of player/goalie selection will mostly be based on a per game basis with some acknowledgement of games played in the previous year noting past injuries and missed games.
+
+## Yahoo League Fantasy Scoring Format
+<b>Roster</b>
+* 12 players
+* 1 goalies
+
+<b>Player</b>
 
 * Goals = 30 pts
 * Assists = 25 pts
@@ -21,9 +37,14 @@ Player
 * Hits = 1 pt
 * Blocked Shots = 1 pt
 
-Goalies
+<b>Goalies</b>
 
 * Wins = 35 pts
 * Saves = 2.5 pts
 * Goals Against = -15 pts
 * Shutouts = 25 pts
+
+<hr>
+
+# Data Source
+Data gathered from <a href="https://www.hockey-reference.com/">hockey-reference.com</a>
