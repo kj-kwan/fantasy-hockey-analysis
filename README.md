@@ -5,8 +5,6 @@
 # Background
 I built this notebook with the intent of maximizing my chances of winning my Fantasy hockey league using some simple linear regression modeling to estimate future performance based on the past years' performance.
 
-<hr>
-
 # Objective
 Analyzing NHL player and goalie data to optimize fantasy hockey draft performance to maximize expected value.
 
